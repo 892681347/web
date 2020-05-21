@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>英雄联盟游戏之家</title>
+	<link rel="stylesheet" href="css/main.css" type="text/css">
+
+	<script type="text/javascript" src="js/pictureSlide.js" ></script>
+	<script type="text/javascript">
+
+		window.onload = function (){
+			var i=1;
+			var narrow = document.getElementById("narrowleft");
+			var hero = document.getElementById("container");
+			var heropic = hero.getElementsByClassName("heropic");
+			narrow.onmousedown = function(){
+				for(var j=0;j<heropic.length;j++){
+					heropic[j].style.display="none";
+				}
+				heropic[i].style.display="block";
+				i = (i+1)%31;
+			};
+    	};
+	</script>
+</head>
+<body>
+	<!-- 登录开始 -->
+	<div class="register">
+		<img src="images/main/default.png">
+		<div>
+			亲爱的召唤师，欢迎<a href="login.html">登录</a>
+		</div>
+	</div>
+	<!-- 登录结束 -->
+	<div class="main">
+		<!-- 顶部图片开始 -->
+		<img src="images/main/top.jpg" class="topimg">
+		<!-- 顶部图片结束 -->
+		<!-- 菜单栏 -->
+		<div class="nav_bg">
+			<div class="nav_content">
+				<ul class="nav">
+				<li><a href="https://lol.qq.com/"><img src="images/main/logo.png" alt=""></a></li>
+				<li class="nav_active"><a href="#">游戏资料</a></li>
+				<li class="nav_active"><a href="shopping.html">周边商城</a></li>
+				<li class="nav_active"><a href="#">社区互动</a></li>
+				<li class="nav_active"><a href="#">赛事官网</a></li>
+				<li class="nav_active"><a href="#">自助系统</a></li>
+			</ul>
+			</div>
+		</div>
+		<!-- 菜单栏结束 -->
+		<!-- 中间左边开始 -->
+		<div class="middleleft">
+			<!-- 轮播图开始 -->
+			<img src="images/index/pic1.jpg" width="690" height="350" id="focusImg"> 
+			<ul class="focusBox">
+				<li onclick="showPic(1);"></li>
+				<li onclick="showPic(2);"></li>
+				<li onclick="showPic(3);"></li>
+			</ul>
+			<!-- 轮播图结束 -->
+			<!-- 热门活动开始 -->
+			<div class="hotactive">
+				<div class="hottop">
+					<div class="rectangle"></div>
+					<div class="hottitle">热门活动</div>
+					<div class="hotmore"><a href="">更多--></a></div>
+				</div>
+				<div class="hotdown">
+					<div class="hotcontent">
+						<div class="hotimg">
+							<img src="images/main/hotimg1.jpg">
+							<a href="#">LPL季中赛开启</a>
+							<div class="clear"></div>
+							<p class="p">80天后结束</p>
+						</div>
+						
+					</div>
+					<div class="hotcontent">
+						<div class="hotimg">
+							<img src="images/main/hotimg2.jpg">
+							<a href="#">战斗学院同人创作大赛</a>
+							<div class="clear"></div>
+							<p class="p">15天后结束</p>
+						</div>
+						
+					</div>
+					<div class="hotcontent">
+						<div class="hotimg">
+							<img src="images/main/hotimg3.jpg">
+							<a href="#">季中英雄之礼</a>
+							<div class="clear"></div>
+							<p class="p">限时活动</p>
+						</div>
+						
+					</div>
+					<div class="hotcontent">
+						<div class="hotimg">
+							<img src="images/main/hotimg4.jpg">
+							<a href="#">季中试炼</a>
+							<div class="clear"></div>
+							<p class="p">3天后结束</p>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<!-- 热门活动结束 -->
+			<!-- 新英雄新皮肤开始 -->
+			<div class="newhero" onclick="">
+				<div class="newheroone">
+					<img src="images/main/newheroone.jpg" alt="">
+					<span class="newherotitle">新英雄</span>
+					<p class="newheroword">"嗷呜,我是一头山地狮"</p>
+					<a href="" class="newheroname">魔法猫咪 悠米</a>
+				</div>
+				<div class="newherotwo">
+					<img src="images/main/newherotwo.jpg" alt="">
+					<span class="newherotitle">新英雄</span>
+					<p class="newheroword">"我是要成为英雄的人"</p>
+					<a href="" class="newheroname">战斗学院</a>
+				</div>
+			</div>
+			<!-- 新英雄新皮肤结束 -->
+
+		</div>
+		<!-- 中间左边结束 -->
+		<!-- 中间右边开始 -->
+		<div class="middleright">
+			<!-- 公告开始 -->
+			<div class="notice">
+				<div class="noticename">
+					公告
+				</div>
+				<div class="noticecontent">
+					<div class="noticemain">
+						<a href="newone.html">LPL夏季赛阵容名单 iG稳定RNG换血</a>
+					</div>
+					<div class="noticelist">
+						<span class="listtitlesp">视频</span>
+						<span class="listmain">
+							<a href="#" class="sp">死兆星系列预览：烬、卡尔玛、萨科</a>
+						</span>
+						<span class="listtime">05-29</span>
+					</div>
+					<div class="noticelist">
+						<span class="listtitless">赛事</span>
+						<span class="listmain">
+							<a href="#" class="ss">创意电路板点亮LOL高校联赛福建站</a>
+						</span>
+						<span class="listtime">05-28</span>
+					</div>
+					<div class="noticelist">
+						<span class="listtitlexw">新闻</span>
+						<span class="listmain">
+							<a href="#" class="xw">铁铠冥魂莫德凯撒的技能更新一览</a>
+						</span>
+						<span class="listtime">05-28</span>
+					</div>
+					<div class="noticelist">
+						<span class="listtitlesp">视频</span>
+						<span class="listmain">
+							<a href="#" class="sp">莫德凯撒: 铁铠冥魂的重生</a>
+						</span>
+						<span class="listtime">05-28</span>
+					</div>
+					<div class="noticelist">
+						<span class="listtitlexw">新闻</span>
+						<span class="listmain">
+							<a href="#" class="xw">掌盟对战助手功能回归 主播秘籍助你对线克敌先机</a>
+						</span>
+						<span class="listtime">05-28</span>
+					</div>
+					<div class="noticelist">
+						<span class="listtitlexwl">新闻</span>
+						<span class="listmain">
+							<a href="#" class="xwl">“520甜蜜周末”全场半价延长公告</a>
+						</span>
+						<span class="listtime">05-26</span>
+					</div>
+				</div>
+				<a href="news.html" class="noticemore">
+					<p>阅读更多最新资讯</p>
+				</a>
+				
+			</div>
+			<!-- 公告结束 -->
+			<!-- 下载专区开始 -->
+			<div class="downloadspace">
+				<!-- 下载区上部分 -->
+				<div class="downloadup">
+					<div class="downloadupleft">
+						<a href="https://lol.qq.com/download.shtml?ADTAG=lolweb.v3" title="下载游戏"><img src="images/index/xiazaiyouxi.png" alt=""></a>
+					</div>
+					<div class="downloadupright">
+						<div class="downloaduprightone">
+							<a href="https://lol.qq.com/download.shtml?ADTAG=lolweb.v3" title="新手必备"><img src="images/index/xinshoubibie.png" alt=""></a>
+						</div>
+						<div class="clear"></div>
+						<div class="downloaduprighttwo">
+							<a href="https://lol.qq.com/download.shtml?ADTAG=lolweb.v3" title="领取中心"><img src="images/index/lingquzhongxin.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+				<!-- 下载区中间部分 -->
+				<div class="downloadmiddle">
+					<div class="downloadmiddlesf">
+						<a href="https://lol.qq.com/download.shtml?ADTAG=lolweb.v3" title="在线客服"><img src="images/index/zaixiankefu.png" alt=""></a>
+					</div>
+					<div class="downloadmiddles">
+						<a href="https://lol.qq.com/download.shtml?ADTAG=lolweb.v3" title="秩序殿堂"><img src="images/index/zhixudiantang.png" alt=""></a>
+					</div>
+					<div class="downloadmiddles">
+						<a href="https://lol.qq.com/download.shtml?ADTAG=lolweb.v3" title="游戏资料"><img src="images/index/youxiziliao.png" alt=""></a>
+					</div>
+					<div class="downloadmiddles">
+						<a href="https://lol.qq.com/download.shtml?ADTAG=lolweb.v3" title="峡谷之巅"><img src="images/index/xiaguzhidian.png" alt=""></a>
+					</div>
+					<!-- 115 12 -->
+				</div>
+				<!-- 下载区下部分 -->
+				<div class="downloaddown">
+					<div class="downloaddownf">
+						<a href="https://lol.qq.com/download.shtml?ADTAG=lolweb.v3" title="微信绑定"><img src="images/index/weixinbangding.png" alt=""></a>
+					</div>
+					<div class="downloadmiddles">
+						<a href="https://lol.qq.com/download.shtml?ADTAG=lolweb.v3" title="LOL宇宙"><img src="images/index/lolyuzhou.png" alt=""></a>
+					</div>
+					<div class="downloadmiddles">
+						<a href="https://lol.qq.com/download.shtml?ADTAG=lolweb.v3" title="玩家社区"><img src="images/index/wanjiashequ.png" alt=""></a>
+					</div>
+				</div>
+
+			</div>
+			<!-- 下载专区结束 -->
+			<!-- 周免专区开始 -->
+			<div class="freespace">
+				<div class="freeleft">
+					<div class="freeleftup">
+						<img src="images/main/newherothree.jpg" alt="">
+					</div>
+					<div class="freeleftdown">
+						<img src="images/main/newherofour.jpg" alt="">
+					</div>
+				</div>
+				<div class="freeright">
+					<div class="freerightup">
+						<img src="images/main/newherofive.jpg" alt="">
+					</div>
+					<div class="freerightdown">
+						<a href="" title="">周免</a>
+					</div>
+				</div>
+			</div>
+			<!-- 周免专区结束 -->
+		</div>
+		<!-- 中间右边结束 -->
+		<!-- 英雄资料开始 -->
+		<div class="hero" id="container">
+			<div class="herooption">
+				<div class="rectangle"></div>
+				<div class="herooptiontitle">英雄资料</div>
+			</div>
+			<script type="text/javascript">
+				var j = 1;
+				var img = "images/lolpic/"
+				for(var i=1;i<=31;i++){
+					document.write("<div class='heropic' ");
+					if(i==1) {
+						document.write("style='display: block'");
+					}
+					document.write(">")
+					for(var k=1;k<=4;k++){
+						document.write("<div class='eachheropic'>");
+						var imgpic = img+(j++)+".png";
+						document.write("<a href='hero.html' title='点击查看全部英雄'>");
+						document.write("<img src='"+imgpic+"'>");
+						document.write("</a>")
+						document.write("</div>");
+					}
+					document.write("</div>");
+				}
+				
+
+			</script>
+			<img src="images/main/narrow.png" class="narrow" id="narrowleft" title="点击查看下一页英雄">
+			<div class="heroright">
+				<a href="hero.html" title="更多英雄">
+					<img src="images/main/heromore.gif" class="heromorepic">
+				</a>
+			</div>
+		</div>
+		
+		<!-- 英雄资料结束 -->
+	</div>
+	<!-- 页尾开始 -->
+	<div class="foot">
+		<a href="#" title="腾讯互动娱乐">
+			<div class="footpicone"></div>
+		</a>
+		<a href="#" title="RIOT">
+			<div class="footpictwo"></div>
+		</a>
+		
+		<div class="footword">
+			<p>腾讯互动娱乐|服务条款|腾讯游戏隐私保护指引|腾讯游戏招聘|腾讯游戏客服|游戏地图|商务合作|腾讯网|网站导航</p>
+			<p>腾讯公司版权所有</p>
+			<p>COPYRIGHT © 1998 - 2019 TENCENT. ALL RIGHTS RESERVED.</p>
+			<p>COPYRIGHT © 2012 Riot Games,Inc. ALL RIGHTS RESERVED.</p>
+			<p>本网络游戏适合18+岁的用户使用；为了您的健康，请合理控制游戏时间。</p>
+			<p>粤网文[2017]6138-1456号|（总）网出证（粤）字第057号</p>
+			<p>批准文号：新出审字[2011]310号 |文网进字[2011] 004号 | 出版物号：ISBN 978-7-89989-145-2|全国文化市场统一举报电话：12318</p>
+		</div>
+	</div>
+	<!-- 页尾结束 -->
+	
+</body>
+</html>

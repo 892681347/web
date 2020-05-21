@@ -1,0 +1,152 @@
+*{padding: 0;margin: 0;}
+.clear{clear: both}
+.register{position: absolute;top: 2%;right: 10%;color: #fff;background:url(../images/main/dark.png)}
+.register img,div{float: left;font-size: 20px}
+.register div{margin: 17px 10px}
+.register div a{color: #fff3d0}
+.main{width: 100%;background: #F0F0F0;overflow-x: hidden;}
+.topimg{height: 400px;width: 100%}
+.nav_bg{width: 100%;margin: 0 auto;height: 130px;line-height: 40px;background:url(../images/main/dark.png);}
+.nav_content{margin-left:150px;text-decoration: none}
+.clear{clear: both}
+.nav{margin: 0 auto;width: 100%;float: left}
+.nav li{float: left;margin-top: 25px;margin-left: 70px;text-decoration: none;font-size: 25px}
+
+li,ul{list-style: none}
+a{color:#fff3d0;text-decoration:none}
+a:hover{color:#ff0;text-decoration:none}
+
+
+/*中间左边开始*/
+.middleleft{height: 945px;width: 750px;background:#F0F0F0;margin-left: 90px;margin-right: 50px}
+/*轮播图开始*/
+#focusImg{width: 750px}
+.focusBox {
+	position: absolute;
+	top: 860px;
+	width: 120px;
+	left: 33.5%;
+	margin-left: -60px;
+	list-style: none;
+}
+
+.focusBox li {
+	float: left;
+	margin-right: 10px;
+	width: 15px;
+	height: 15px;
+	border-radius: 10px;
+	background: gray;
+	cursor: pointer;
+}
+
+.focusBox li.cur {
+	background: #f60;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+/*轮播图结束*/
+/*热门活动开始*/
+.hotactive{height: 295px;width: 750px;background: #F0F0F0;margin-top: 40px}
+.hottop{width: 100%;height: 11%}
+.rectangle{height: 100%;width: 4px;background: #1da6ba;float: left;}
+.hottitle{height: 100%;font-size: 24px;vertical-align: middle;float: left;font-weight: 500;margin-left: 10px}
+.hotmore{height: 100%;float: right;font-size: 15px;vertical-align: middle;}
+.hotmore a{font-size: 10px;text-decoration: none;color: #7ea1a6;vertical-align: middle;}
+.hotmore a:hover{font-size: 10px;letter-spacing: 5px;color: #2894FF;vertical-align: middle;}
+
+.hotdown{width: 100%;height: 89%;}
+.hotcontent{width: 23%;height: 90.478%;margin:10px 7px 0 7px;background: #fff}
+.hotimg{width: 100%;height: 85%}
+.hotimg img{width: 100%;height: 100%}
+.hotimg a{font-size: 8px;font-weight: 500;color: black;float: left;}
+.hotimg a:hover{font-size: 8px;font-weight: 500;color: #1da6ba}
+.hotimg .p{font-size: 5px;float: right;color: #1da6ba}
+/*热门活动结束*/
+/*新英雄新皮肤开始*/
+.newhero{height: 214px;width: 750px;background: #F0F0F0;margin-top: 40px}
+.newhero img{height: 100%;width: 100%}
+.newheroone{height: 100%;width: 350px;position: relative;margin-right: 50px;}
+.newherotwo{height: 100%;width: 350px;position: relative;}
+.newherotitle{background: #000000;color: #cdbe91;position: absolute;left: 9px;top: 9px;padding: 1px 5px;font-size: 12px}
+.newheroword{font-size: 16px;font-weight: 700;color: #cdbe91;position: absolute;left: 17px;bottom: 33px}
+.newheroname{font-size: 13px;color: #b7a261;position: absolute;left: 17px;bottom: 12px}
+/*新英雄新皮肤结束*/
+
+/*中间左边结束*/
+
+/*中间右边开始*/
+.middleright{height: 945px;width: 496px;background:#F0F0F0;margin-right: 90px}
+/*公告开始*/
+.notice{height: 350px;width: 100%;}
+.noticename{width: 100%;height: 32px;color: #1da6ba;font-size: 18px;line-height: 32px;font-weight: 600;background: #F0F0F0;text-align: center;vertical-align: middle;}
+.noticecontent{width: 100%;height: 280px;background: #F0F0F0}
+.noticemain{width: 100%;height: 20%;border-top: 1px #e0e2e2 solid;text-align: center;}
+.noticemain a{font-size: 22px;font-weight: 700;color: #1da6ba;margin-top: 50px;line-height: 57px}
+.noticemain a:hover{font-size: 22px;font-weight: 700;color: #ebc469;margin-top: 50px;}
+.noticelist{width: 100%;height: 13.3%;border-top: 1px #e0e2e2 solid}
+.listtitlesp{border: 1px #e9852d solid;padding: 1px 5px;color: #e9852d;font-size: 12px;line-height: 38.23px;}
+.listtitless{border: 1px #97afc5 solid;padding: 1px 5px;color: #6388c5;font-size: 12px;line-height: 38.23px;}
+.listtitlexw{border: 1px #c5ab86 solid;padding: 1px 5px;color: #bb9a6c;font-size: 12px;line-height: 38.23px;}
+.listtitlexwl{border: 1px #69c5d2 solid;padding: 1px 5px;color: #1da6ba;font-size: 12px;line-height: 38.23px;}
+
+.listmain{margin-left: 20px;}
+.listmain a{font-size: 15px;color: #000000;}
+.listmain .sp:hover{font-size: 15px;color: #e9852d;}
+.listmain .ss:hover{font-size: 15px;color: #6388c5;}
+.listmain .xw:hover{font-size: 15px;color: #bb9a6c;}
+.listmain .xwl:hover{font-size: 15px;color: #1da6ba;}
+
+.listtime{float: right;;line-height: 38.23px;font-size: 12px;color: #9d9d9d}
+.noticemore{width: 100%;height: 38px;color: #676767;font-size: 14px;background: #dad8d8;display: inline-block;text-align: center;vertical-align: middle;}
+.noticemore:hover{width: 100%;height: 38px;color: #7ea1a6;font-size: 14px;background: #dad8d8;display: inline-block;text-align: center;vertical-align: middle;}
+.noticemore p{line-height: 38px}
+/*公告结束*/
+/*下载专区开始*/
+.downloadspace{height: 295px;width: 100%;background: #F0F0F0;margin-top: 45px}
+.downloadspace img{width: 100%;height: 100%}
+.downloadup{height: 156px;width: 100%;background: #F0F0F0}
+.downloadupleft{height: 156px;width: 357px;background: #F0F0F0}
+.downloadupright{height: 156px;width: 119px;background: #F0F0F0;margin-left: 20px}
+.downloaduprightone{height: 68px;width: 100%;background: #F0F0F0}
+.downloaduprighttwo{height: 68px;width: 100%;background: #F0F0F0;margin-top: 20px}
+
+.downloadmiddle{height: 53px;width:100%;background:#F0F0F0;margin-top:17px;}
+.downloadmiddlesf{height: 100%;width: 109px;background:#F0F0F0; }
+.downloadmiddles{height: 100%;width: 109px;background:#F0F0F0;margin-left: 20px }
+
+.downloaddown{height: 53px;width:100%;background:#F0F0F0;margin-top:17px;}
+.downloaddownf{height: 100%;width: 238px;background:#F0F0F0; }
+/*下载专区结束*/
+/*周免专区开始*/
+.freespace{height: 214px;width: 100%;background: #F0F0F0;margin-top: 40px}
+/*zuobian 94 20*/
+.freeleft{height: 100%;width: 238px;background: #F0F0F0}
+.freeleftup{width: 100%;height: 97px;background: #F0F0F0}
+.freeleftdown{width: 100%;height: 97px;background: #F0F0F0;margin-top: 20px}
+.freeright{height: 100%;width: 238px;background: #F0F0F0;margin-left: 20px}
+.freerightup{width: 100%;height: 150px;background: #F0F0F0}
+.freerightdown{width: 100%;height: 44px;text-align: center;color: #fff;background: url(../images/main/newheroback.jpg);margin-top: 20px;}
+.freerightdown a{line-height: 44px}
+.freespace img{height: 100%;width: 100%}
+/*周免专区结束*/
+/*中间右边结束*/
+
+/*英雄资料开始*/
+.hero{width: 100%;margin-top: 40px;background: #e3e2e2}
+.herooption{width: 92%;height: 35px;padding:40px 0 0 40px;margin: 0 50px;}
+.herooptiontitle{padding: 0 10px;font-size: 24px;float: left;}
+
+.heropic{display: none;padding: 20px;margin:10px 30px 50px 90px;background:#F0F0F0}
+.eachheropic{height: 120px;width: 120px;margin-left: 40px;}
+.narrow{cursor:pointer;width: 120px;height: 120px;margin-top: 25px}
+.heroright{margin-top: 20px;width: 300px;height: 100%;float: right;}
+.heromorepic{width: 152px;height: 128px;}
+/*英雄资料结束*/
+/*页尾开始*/
+.foot{width: 100%;height: 265px;background: #F0F0F0}
+.footpicone{float:left;width: 189px;height: 34px;margin: 100px 0 60px 100px;background-image: url(../images/main/footleftone.png);background-size: 180px 35px;background-repeat: no-repeat;}
+.footpictwo{float:left;width: 140px;height: 34px;margin: 100px 20px 40px;background-image: url(../images/main/footlefttwo.png);background-size: 100px 34px;background-repeat: no-repeat;}
+.footword{color: #b2a994;float:right;width: 50%;height: 205px;margin: 62.5px 100px 62.5px 0;font-size: 12px}
+.footword p{margin-top: 4px}
+/*页尾结束*/
